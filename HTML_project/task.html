@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Classes</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Tution Center">
+  <meta name="keywords" content="Tution, Classes, Coaching">
+  <meta name="author" content="Pavithra"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="HTML">
+ 
+</head>
+<body>
+  <center>
+    <h1>Tution Center</h1>
+    <header>
+      <div> <marquee behavior="scroll" direction="left" scrollamount="10">  
+          Offer ends soon! Enroll now and get 20% off on all courses. Limited time offer. Don't miss out!
+        </marquee>
+        <h2>Welcome to Our Tution Center</h2></div>
+    
+      <nav>
+        <br>
+        <b><a href="#HOME" style="color: black;">HOME</a></b>
+        <b><a href="#ABOUT" style="color: black;">ABOUT US</a></b>
+        <b><a href="#CONTACT" style="color: black;">CONTACT</a></b>
+      </nav>
+    </header>
+    <hr>
+    <aside>
+      <img src="indian-uni.jpg" width="300" alt="logo" style="display: block; margin: auto;">
+      <br> <br>
+      <video width="50%" controls autoplay>
+        <source src="5198168-uhd_3840_2160_25fps.mp4" type="video/mp4">
+      </video>
+    </aside>
+    <main>
+      <section id="HOME">
+        <br><br><br>
+        <form>
+          <table border="2" width="50%" style="background-color:rgb(69,59,92);color:black;">
+            <tr>
+              <th colspan="2"><h2>Registration Form</h2></th>
+            </tr>
+            <tr>
+              <th><label for="name">Student Name</label></th>
+              <td><input id="name" type="text" placeholder="Enter your Name" required></td>
+            </tr>
+            <tr>
+              <th><label for="email">Student Email Address</label></th>
+              <td><input id="email" type="email" placeholder="Enter your Email" required></td>
+            </tr>
+            <tr>
+              <th><label for="date">Date of Birth</label></th>
+              <td><input id="date" type="date" required></td>
+            </tr>
+            <tr>
+              <th><label for="age">Age</label></th>
+              <td><input id="age" type="number" min="1" max="100" placeholder="Age" required></td>
+            </tr>
+            <tr>
+              <th><label for="time">Preferred Time for Classes</label></th>
+              <td><input id="time" type="time" required></td>
+            </tr>
+            <tr>
+              <th>Gender:</th>
+              <td>
+                <input type="radio" name="gender" value="male" id="male"><label for="male"> Male</label>
+                <input type="radio" name="gender" value="female" id="female"><label for="female"> Female</label>
+              </td>
+            </tr>
+            <tr>
+              <th><label for="standard">Select Standard:</label></th>
+              <td>
+                <select id="standard" name="standard" required>
+                  <option value="">--Select a standard--</option>
+                  <option value="10th">10th</option>
+                  <option value="11th">11th</option>
+                  <option value="12th">12th</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <th><label for="course">Select Subjects:</label></th>
+              <td>
+                <select id="course" name="course" required multiple>
+                  <option value="">--Select a course--</option>
+                  <option value="maths">Mathematics</option>
+                  <option value="science">Science</option>
+                  <option value="english">English</option>
+                  <option value="history">History</option>
+                  <option value="Botany">Botany</option>
+                  <option value="Physics">Physics</option>
+                  <option value="Chemistry">Chemistry</option>
+                  <option value="Commerce">Commerce</option>
+                  <option value="Business maths">Business Maths</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <th><label for="address">Address:</label></th>
+              <td><textarea id="address" placeholder="Enter your Address" required></textarea></td>
+            </tr>
+            <tr>
+              <th><label for="phone">Parent Phone Number</label></th>
+              <td><input id="phone" type="tel" placeholder="Enter your Parent Number" required></td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center">
+                <input type="checkbox" required> I agree to the terms and conditions<br><br>
+                <input type="submit" value="Register">
+                <input type="reset" value="Cancel">
+              </td>
+            </tr>
+          </table>
+        </form>
+        <br>
+
+        <h1>Student Details</h1>
+        <table border="2" width="50%">
+          <tr>
+            <th>Student Name</th>
+            <th>Student email Address</th>
+            <th>DOB</th>
+            <th>Age</th>     
+            <th>Preferred Time for Classes</th>
+            <th>Gender</th>
+            <th>Select Standard</th>
+            <th>Select Subjects</th>
+            <th>Address</th>
+            <th>Phone number</th>
+          </tr>
+          <tr>
+            <td>Pavithra</td>
+            <td>abc@gmail.com</td>
+            <td>10/09/2005</td>
+            <td>18</td>
+            <td>10:00 AM</td>
+            <td>Female</td>
+            <td>12th</td>
+            <td><ol><li>Maths</li><li>Science</li></ol></td>
+            <td>No: 30, Bharathiyar street</td>
+            <td>1234567890</td>
+          </tr>
+          <tr>
+            <td>Swetha</td>
+            <td>hol@gmail.com</td>
+            <td>10/09/2010</td>
+            <td>18</td>
+            <td>06:00 AM</td>
+            <td>Female</td>
+            <td>10th</td>
+            <td><ol><li>Maths</li><li>History</li></ol></td>
+            <td>No: 30, kanadhasan street</td>
+            <td>4589631753</td>
+          </tr>
+          <tr>
+            <td>Suresh</td>
+            <td>xyz@yahoo.com</td>
+            <td>10/09/2008</td>
+            <td>20</td>
+            <td>08:00 PM</td>
+            <td>Male</td>
+            <td>11th</td>
+            <td><ol><li>Maths</li><li>History</li><li>Biology</li></ol></td>
+            <td>No: 30, Rajaji street</td>
+            <td>9632587410</td>
+          </tr>
+        </table>
+      </section>
+      <section id="ABOUT">
+        <h2>About Us</h2>
+        <p>
+          We are taking classes for 10th, 11th, and 12th std students. We provide coaching for all subjects. We have well-experienced teachers. We also provide online classes for students who are not able to attend offline classes. We provide study materials and notes for all subjects. We also conduct weekly tests and monthly exams to evaluate the students' performance. We also provide doubt clearing sessions for students who have difficulties understanding concepts. We provide special classes for competitive exams like NEET, JEE, etc., career guidance, personality development, extracurricular activities, hostel facilities, transport, scholarships, flexible timing, affordable fees, and a friendly environment.
+        </p>
+      </section>
+      <section id="CONTACT">
+        <b>Contact Us</b>
+        <h5>+91 8475631597 | <a href="mailto:Tutionacademy@gmail.com">Tutionacademy@gmail.com</a></h5>
+        <p>9th Avenue Bala street, Porur, Chennai-52</p>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+        <a href="https://www.twitter.com" target="_blank">Twitter</a> |
+        <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a><br>
+        <a href="#" style="color: black;"><b>Back to Top ↑</a>       
+      </section>
+    </main><br>
+    <footer>
+      <nav>
+         <p>&copy; 2025 Tution Center. All rights reserved.</p>
+      </nav>
+      
+    </footer>
+  </center>
+</body>
+</html>
