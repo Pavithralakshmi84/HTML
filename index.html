@@ -1,24 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
+    <style>
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #698fbe;
+  margin: 0;
+  padding: 0;
+
+}
+
+nav {
+  width: 350px;
+  background: #fff;
+  margin: 40px auto;
+  padding: 25px 18px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+
+details {
+  margin-bottom: 12px;
+  border: 1px solid #dce3ea;
+  border-radius: 7px;
+  background: #eef3f8;
+  transition: box-shadow 0.3s;
+}
+
+details[open] {
+  box-shadow: 0 2px 10px rgba(0, 100, 180, 0.06);
+}
+
+summary {
+  font-weight: 600;
+  cursor: pointer;
+  padding: 13px;
+  outline: none;
+  border-radius: 7px;
+  background: linear-gradient(90deg, #dbeafe, #b6e0fe);
+  margin-bottom: 0;
+  user-select: none;
+}
+
+
+.topic {
+  padding-left: 16px;
+  margin-bottom: 10px;
+}
+
+.topic a {
+  display: block;
+  color: #2980b9;
+  text-decoration: none;
+  margin: 7px 0;
+  font-size: 15px;
+  padding: 7px 11px;
+  border-radius: 5px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.topic a:hover {
+  background: #cce6ff;
+  color: #154360;
+}
+h1{
+    text-align: center;
+    color: tan;
+}
+</style>
 </head>
+
 <body>
+    <H1>HTML Assignments</H1>
     <nav>
-        <div style="background-color: grey; display: flex; justify-content: center; align-items: center; gap: 10px; padding: 10px;">
-            <a href="Intro/Intro.html" style="color: white;">Html Intro</a>
-            <a href="Block_inline/block_inline.html" style="color: white;">BlockLevel & Inline</a>
-            <a href="SEMANTIC/Semantic.html" style="color: white;">Semantic Tags</a>
-            <a href="Attribute/Attribute_1.html" style="color: white;">Attributes 1</a>
-            <a href="Attribute/Attribute_task2.html" style="color: white;">Attributes 2</a>
-            <a href="Forms/Form.html" style="color: white;">Forms</a>
-            <a href="Forms/Forms&Table.html" style="color: white;">Forms&Table</a>
-            <a href="Table/Table.html" style="color: white;">Tables</a>
-            <a href="Table/list_types.html" style="color: azure;" target="_blank">Types of List</a>
-            <a href="Media/Media.html" style="color: white;" target="_blank">Meta & Media Tags</a>
-        </div>
+        <details>
+            <summary>HTML Intro</summary>
+
+            <div class="topic">
+                <a href="Intro_html/Intro.txt"> Task 1</a>
+                <a href="Intro_html/Intro.html">Task 2</a>
+                <a href="Intro_html/Static_Webpage.docx">Task 3</a>
+        </details>
+
+
+        <details>
+            <summary>Semantic Tag</summary>
+
+            <div class="topic">
+                <a href="SEMANTIC/Semantic.html"> Task 1</a>
+                <a href="SEMANTIC/semanticl.docx">Task 2</a>
+        </details>
+
+        <details>
+            <summary>Block & INLINE</summary>
+
+            <div class="topic">
+                <a href="Block_inline/Block and inline.docx"> Task 1</a>
+                <a href="Block_inline/block_inline.html">Task 2</a>
+        </details>
+        <details>
+            <summary>Attributes</summary>
+
+            <div class="topic">
+                <a href="Attributes/Attribute_1.html"> Task 1</a>
+                <a href="Attributes/Attribute_task2.html">Task 2</a>
+                <a href="Attributes/attributes.docx">Task 2</a>
+
+        </details>
+
+        <details>
+            <summary>TABLE</summary>
+
+            <div class="topic">
+                <a href="Table/list_types.html"> Task 1</a>
+                <a href="Table/Table.html">Task 2</a>
+        </details>
+
+        <details>
+            <summary>Form</summary>
+
+            <div class="topic">
+                <a href="Forms/Form.html"> Task 1</a>
+                <a href="Forms/Forms&Table.html">Task 2</a>
+        </details>
+        <details>
+            <summary>Media Tag</summary>
+
+            <div class="topic">
+                <a href="Media/Media.html"> Task 1</a>
+        </details>
+
+        <details>
+            <summary>Final HTML Project</summary>
+
+            <div class="topic">
+                <a href="Final HTML/task.html"> Task 1</a>
+        </details>
+
     </nav>
 </body>
+
 </html>
