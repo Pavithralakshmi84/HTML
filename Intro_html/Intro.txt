@@ -1,0 +1,33 @@
+
+Important Tags commonly used in HTML 
+ 
+<html>: Represents the root of an HTML document, encapsulating all content. 
+<html> ... </html> 
+<head>: Contains metadata, links to stylesheets, and scripts. 
+<head> ... </head> 
+<title>: Specifies the title of the webpage, displayed in the browser tab. 
+<title>Page Title</title> 
+<body>: Encloses the main content visible on the webpage. 
+<body> ... </body> 
+<h1> to <h6>: Define headings, with <h1> being the largest and <h6> the smallest. 
+<h1>Main Heading</h1> 
+<p>: Represents a paragraph of text. 
+<p>This is a paragraph.</p> 
+<a>: Creates hyperlinks to navigate to other pages or resources. 
+<a href="https://example.com">Visit Example</a> 
+<img>: Embeds images into the webpage. 
+<img src="image.jpg" alt="Description"> 
+<ul>: Defines an unordered list, typically rendered with bullet points. 
+<ul><li>Item 1</li><li>Item 2</li></ul> 
+<ol>: Defines an ordered list, usually numbered. 
+<ol><li>First</li><li>Second</li></ol> 
+<li>: Represents an item in a list (used within <ul> or <ol>). 
+<li>List Item</li> 
+<div>: A block-level container for grouping content. 
+<div>Content here</div> 
+<span>: An inline container for styling or grouping text. 
+<span>Inline text</span> 
+<table>: Creates a table structure. 
+<table> ... </table> 
+ 
+ 
